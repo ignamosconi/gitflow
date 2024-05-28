@@ -3,7 +3,7 @@ public interface Operaciones {
     int sumar(int num1, int num2);
     
     
-    //Métodos a implementar versión 1.0
+    //Métodos a  implementar versión 1.0
     /* 
     int restar(int num1, int num2);
     int multiplicar(int num1, int num2);
