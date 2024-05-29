@@ -4,7 +4,7 @@ public class Calculadora implements Operaciones {
     public Calculadora() {}
 
     public int sumar(int num1, int num2) {
-        return (num1 + num2 + num2);
+        return (num1 + num2);
     }
 
     //Métodos Igna - rama feature-multPot
