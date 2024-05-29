@@ -7,6 +7,15 @@ public class Calculadora implements Operaciones {
         return (num1 + num2);
     }
 
+
+    public int restar(int num1, int num2){
+        return (num1 - num2);
+    }
+
+    public double dividir(int num1, int num2){
+        return (num1 / num2);
+    }
+
     public int factorial(int num1) {
         if (num1 < 0) {
             throw new IllegalArgumentException("No se puede calcular el factorial de un número negativo.");
@@ -27,7 +36,7 @@ public class Calculadora implements Operaciones {
 
     //Métodos Igna - rama feature-multPot
     public int multiplicar(int num1, int num2) {
-        return (num1 * num2 * num2);
+        return (num1 * num2);
     }
 
     public double potencia(int base, int exponente) {
