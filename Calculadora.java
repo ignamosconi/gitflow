@@ -7,6 +7,15 @@ public class Calculadora implements Operaciones {
         return (num1 + num2);
     }
 
+
+    public int restar(int num1, int num2){
+        return (num1 - num2);
+    }
+
+    public double dividir(int num1, int num2){
+        return (num1 / num2);
+    }
+
     public int factorial(int num1) {
         if (num1 < 0) {
             throw new IllegalArgumentException("No se puede calcular el factorial de un número negativo.");
